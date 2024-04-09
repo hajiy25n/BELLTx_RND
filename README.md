@@ -20,6 +20,4 @@ Our patient recruitment process is dynamic, meaning that patients are assigned t
 - Integration with Google Spreadsheet API: To facilitate the randomization process, our system is integrated with Google Spreadsheet. This allows for real-time data management and seamless patient assignment.
 - Automated Assignment: The system automatically assigns new patients to the appropriate group based on the stratification factors. This automation ensures accuracy and efficiency in patient distribution.
 
-## About BELL Tx
-BELL Tx is committed to advancing medical research in the field of Cochlear Implants. Our clinical trial aims to explore new frontiers in CI treatments, offering hope and improved quality of life for patients with hearing impairments.
 
