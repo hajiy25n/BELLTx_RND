@@ -1,3 +1,25 @@
-BELL's Randomization System
+# BELL Tx Clinical Trial Randomization Process
 
+## Overview
+BELL Tx is conducting a clinical trial focused on Cochlear Implant (CI) patients. To ensure the efficacy and reliability of our study, we employ a dynamic stratified randomization process. This approach is designed to evenly distribute patients across different groups based on specific hearing conditions and CI surgical factors.
+
+## Stratification Factors
+Patients are categorized and randomized into groups based on four key factors:
+1. **Unilateral/Unilateral CI:** Unilateral hearing loss (normal hearing on the opposite side) + Unilateral CI surgery.
+2. **Asymmetrical/Unilateral CI:** Asymmetrical hearing loss (hearing loss on the opposite side but not profound) + Unilateral CI surgery.
+3. **Bilateral/Unilateral CI:** Bilateral profound hearing loss + Unilateral CI surgery.
+4. **Bilateral/Bilateral CI:** Bilateral profound hearing loss + Bilateral CI surgeries.
+
+## Randomization Objective
+The primary goal of this stratification is to ensure that each group within the study receives an equal representation of the different patient categories. This balanced distribution is crucial for minimizing bias and enhancing the study's validity.
+
+## Dynamic Recruitment
+Our patient recruitment process is dynamic, meaning that patients are assigned to groups as they are enrolled in the study. This approach allows for continuous and flexible patient enrollment, which is essential for the diverse and evolving nature of our clinical trial.
+
+## Technical Requirements
+- Integration with Google Spreadsheet API: To facilitate the randomization process, our system is integrated with Google Spreadsheet. This allows for real-time data management and seamless patient assignment.
+- Automated Assignment: The system automatically assigns new patients to the appropriate group based on the stratification factors. This automation ensures accuracy and efficiency in patient distribution.
+
+## About BELL Tx
+BELL Tx is committed to advancing medical research in the field of Cochlear Implants. Our clinical trial aims to explore new frontiers in CI treatments, offering hope and improved quality of life for patients with hearing impairments.
 
