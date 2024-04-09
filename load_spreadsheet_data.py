@@ -17,6 +17,8 @@ def load_spreadsheet_data(json_file_path, spreadsheet_url, sheetname):
     first_empty_row = patient_data[patient_data['Group'].isnull()].iloc[0]['ID']
     # Column of Factor
     last_col = 'B' + str(int(first_empty_row) + 1)
+    last_col2 = 'A' + str(int(first_empty_row) + 1)
     factor_value = worksheet.acell(last_col).value
+    num_value = worksheet.acell(last_col2).value
 
-    return factor_value, patient_data
+    return num_value, factor_value, patient_data
