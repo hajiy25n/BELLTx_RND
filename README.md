@@ -1,3 +1,3 @@
-** BELL's Randomization System
+BELL's Randomization System
 
 
