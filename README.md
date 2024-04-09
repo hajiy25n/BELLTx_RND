@@ -20,4 +20,8 @@ Our patient recruitment process is dynamic, meaning that patients are assigned t
 - Integration with Google Spreadsheet API: To facilitate the randomization process, our system is integrated with Google Spreadsheet. This allows for real-time data management and seamless patient assignment.
 - Automated Assignment: The system automatically assigns new patients to the appropriate group based on the stratification factors. This automation ensures accuracy and efficiency in patient distribution.
 
+## Essential Component
+This repository includes the '4f_Stratified RND_BELL.py' file, which is essential for performing the randomization process. It is designed to work in conjunction with the other three files included in this repository. To ensure the proper functionality and effectiveness of the randomization, it is crucial to use '4f_Stratified RND_BELL.py' file along with the other files as a comprehensive set.
+
+
 
