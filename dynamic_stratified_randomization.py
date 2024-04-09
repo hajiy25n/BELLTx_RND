@@ -32,8 +32,6 @@ def dynamic_stratified_randomization(patient_data, factor, max_group_size, group
     available_groups = find_available_groups(patient_data, max_group_size, range(1, group_len + 1))
     assigned_group = assign_group(patient_data, factor, available_groups)
 
-    #if patient_data[patient_data['Group'] == assigned_group].shape[0] < max_group_size:
     return assigned_group
-    #else: # 어 이거 없어도 될듯! find group 에서 애초에 거쳐짐. 확인필요!!
-        #return random.choice(find_available_groups(patient_data, max_group_size, range(1, group_len + 1))) or None
+
 
