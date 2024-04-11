@@ -1,4 +1,4 @@
-# BELL Tx's RND Source
+# BELL Tx's RND System
 
 from updateTosheet import *
 from load_spreadsheet_data import *
